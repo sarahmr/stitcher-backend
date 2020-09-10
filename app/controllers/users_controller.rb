@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  skip_before_action :authorized, only: [:create, :login]
+  skip_before_action :authenticate, only: [:create, :login]
 
   def create
     @user = User.create(user_params)
@@ -24,10 +24,6 @@ class UsersController < ApplicationController
   def autologin
     render json: @current_user
   end
-
-  # def profile
-  #   render json: { user: UserSerializer.new(current_user) }, status: :accepted
-  # end
 
   private
 
