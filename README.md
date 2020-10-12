@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Stitcher is an app made for cross stitch. Users can create their own designs and view designs made by others. If a project is added to a user's favorites, they can stitch the design and track their progress with a progress bar and visual cues on the design itself.
 
-Things you may want to cover:
+Frontend: https://github.com/sarahmr/stitcher-frontend
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+DEMO:
